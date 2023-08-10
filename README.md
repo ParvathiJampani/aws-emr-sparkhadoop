@@ -5,6 +5,7 @@
 1. Create S3 bucket named: big-_data_EMR
 2. Create 3 folders inside: data-source, data-output, emr-logs
 3. Get the souce data from https://insights.stackoverflow.com/survey
+4. Create an IAM service role for EMR cluster
 
 ## Step by step process
 
