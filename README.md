@@ -1,12 +1,10 @@
 # emr-spark-job-to-process-data
-
-
 ### Prerequisites:
 1. Create S3 bucket named: big-_data_EMR
 2. Create 3 folders inside: data-source, data-output, emr-logs
 3. Get the souce data from https://insights.stackoverflow.com/survey
 4. Create an IAM service role for EMR cluster
-
+5. Configure IAM roles for EMRFS requests to Amazon S3
 ## Step by step process
 
 1. Create an EMR Cluster and make sure port 22 is open in the security group
